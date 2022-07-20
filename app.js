@@ -79,6 +79,7 @@ const mixedArray = ["Hello", 10, true, "Yes", null];
     });
 */
 
+/*
 // OBJECTS
 
 const person1 = {
@@ -99,3 +100,46 @@ const person1 = {
 };
 
 console.log(person1)
+
+// Array of Objects
+
+let cars = [
+    {model: 'Mustang', engine: 5.0},
+    {model: 'Camero', engine: 6.0},
+    {model: 'Challenger', engine: 6.0}
+]
+
+console.log(cars)
+
+// FOR LOOP
+
+for(let i=0; i < cars.length; i++) {
+    console.log(cars[i].model)
+}
+*/
+
+/*
+// IIFE's = Functions that are invoked immediately (Immediately-Invoked Function Expression)
+
+(function() {
+    console.log('This is an IIFE')
+})();
+
+(function(technology) {
+    console.log(`Learning ${technology}`)
+})('JavaScript');
+
+// PROPERTY METHODS (function that is inside an object is a method)
+const musicPlayer = {
+    play: function(id) {
+        console.log(`Playing song: ${id}`)
+    },
+    pause: function() {
+        console.log('Paused')
+    }
+}
+
+musicPlayer.play('Enter Sandman')
+musicPlayer.pause()
+*/
+
