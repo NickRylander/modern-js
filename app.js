@@ -168,7 +168,7 @@ console.log(output);
 
 
 // IF OPERATOR
-
+/*
 const learningJavaScript = true;
 
 if(learningJavaScript) {
@@ -184,3 +184,26 @@ if(score == 100) {
 } else {
     console.log('No')
 }
+*/
+
+
+// IF, ELSE IF, ELSE
+/*
+let cash = 500
+let cartTotal = 300
+
+if(cash <= cartTotal) {
+    console.log('Successful Payment')
+} else {
+    console.log('Insufficient Funds')
+}
+
+let currentTime = 20;
+if(currentTime <= 10) {
+    console.log('Good Morning')
+} else if (currentTime <= 18) {
+    console.log('Good Afternoon')
+} else {
+    console.log('Good Night')
+}
+*/
