@@ -143,3 +143,44 @@ musicPlayer.play('Enter Sandman')
 musicPlayer.pause()
 */
 
+
+// Dates
+/*
+const today = new Date();
+// const birthday = new Date('November 21, 1990')
+let output;
+
+output = today.getMonth();
+output = today.getDate();
+output = today.getDay();
+output = today.getFullYear();
+output = today.getMinutes();
+output = today.getHours();
+output = today.getTime();
+output = today.getFullYear();
+output = today.setFullYear(2022);
+
+
+console.log(output);
+// console.log(today);
+// console.log(birthday);
+*/
+
+
+// IF OPERATOR
+
+const learningJavaScript = true;
+
+if(learningJavaScript) {
+    console.log('Great')
+} else {
+    console.log('Not so great')
+}
+
+const score = 100
+
+if(score == 100) {
+    console.log('Yes')
+} else {
+    console.log('No')
+}
