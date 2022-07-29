@@ -207,3 +207,26 @@ if(currentTime <= 10) {
     console.log('Good Night')
 }
 */
+
+
+// SWITCH
+
+
+
+
+// LEET CODE
+var fizzBuzz = function(n) {
+    let newArr = []
+    if((n % 3 === 0) && (n % 5 === 0)) {
+        newArr.push("FizzBuzz")
+    } else if (n % 3 === 0) {
+        newArr.push("Fizz")
+    } else if (n % 5 === 0) {
+        newArr.push("Buzz")
+    } else {
+        newArr.push("n")
+    }
+    return newArr
+};
+
+console.log(fizzBuzz(3))
